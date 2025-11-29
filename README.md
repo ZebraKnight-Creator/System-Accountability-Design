@@ -55,4 +55,46 @@ Sprint 0 establishes:
 
 ---
 
-## 4. The
+## 4. The Living Contract (Governance Charter)
+This is the **multi-party contract** that defines how REP becomes UCL.
+
+It encodes:
+- The VWS formula (Verified Work Score),
+- Rights, obligations, and dispute processes,
+- Voting thresholds,
+- Versioning rules,
+- Cryptographic signatures for the validator committee.
+
+Sprint 0 delivers:
+- A structured schema for the contract,
+- Governance fields & constraints,
+- Compatibility with Independent Validators and Advocate AI,
+- Versioning logic that prevents forks or hijacking.
+
+**Goal:** All value conversion rules become transparent, predictable, and upgradeable by community governance.
+
+---
+
+## 5. Contract Signing & Versioning System
+Every version of the Living Contract must be:
+- Signed,
+- Validated,
+- Immutable once released,
+- Compatible with future amendments.
+
+Sprint 0 defines:
+- Signature scheme (Ed25519),
+- Version bump logic,
+- Signature verification,
+- Test harness to validate signed contract files.
+
+**Goal:** Establish a provable chain-of-governance for the system’s value rules.
+
+---
+
+## 🎯 Sprint 0 Deliverable
+By the end of Sprint 0, all contributors must be able to produce:
+
+**A complete, validated set of schemas + governance definitions that allow REP → UCL conversion to function transparently, securely, and verifiably within Jenga-Prime.**
+
+These artifacts become the permanent foundation of the UCL Integration Layer.
