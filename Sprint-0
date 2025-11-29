@@ -1,0 +1,31 @@
+# Sprint 0 — Schema & Governance Foundations
+
+## 1. Define Estimated REP Schema
+- [ ] Identify REP metrics (activity, impact, reputation score)
+- [ ] Decide data types & field constraints
+- [ ] Draft JSON/DB schema
+- [ ] Implement validation rules
+
+## 2. Define Verified UCL Schema
+- [ ] Determine required fields (amount, contributor DID, timestamp)
+- [ ] Include audit references & evidence pointers
+- [ ] Draft JSON schema & constraints
+- [ ] Plan field-level encryption/signing
+
+## 3. Append-only Ledger Setup (ULedger)
+- [ ] Select ledger backend (DB or lightweight blockchain)
+- [ ] Implement append-only write logic
+- [ ] Implement checkpointing (Merkle roots, snapshots)
+- [ ] Draft initial ledger entry format
+
+## 4. Living Contract Schema
+- [ ] Define contract parameters (VWS formula, caps, dispute windows)
+- [ ] Define versioning & immutable audit fields
+- [ ] Draft JSON schema with signature placeholders
+- [ ] Include emergency override & veto fields
+
+## 5. Contract Versioning & Signing
+- [ ] Define signing keys & cryptography (Ed25519)
+- [ ] Implement version increment logic
+- [ ] Integrate signature verification in schema
+- [ ] Create test harness to validate contract signing
